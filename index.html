@@ -3,47 +3,244 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#faf9f5">
-  <meta name="description" content="Rendekar edits talks and training archives into short lessons. Watch two examples and explore the production experience behind the work.">
-  <title>Rendekar — Video editing and automation</title>
+  <meta name="theme-color" content="#eef0f3">
+  <title>Rendekar — Teach it once. Produce automatically.</title>
+  <meta name="description" content="Edit one video in Rendekar Studio. Rendekar keeps those decisions as your channel’s recipe and applies them to every new recording, in every format, with your review before anything goes out.">
+  <meta property="og:title" content="Rendekar — Teach it once. Produce automatically.">
+  <meta property="og:description" content="Video production that learns your format from one edit and repeats it for every recording.">
+  <meta property="og:image" content="media/frames/wide-1.webp">
+  <link rel="preload" href="fonts/InterDisplay-SemiBold.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="shell masthead">
-    <a class="brand" href="#main" aria-label="Rendekar home"><span class="emblem" aria-hidden="true">▶</span>rendekar</a>
-    <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#studio">Studio</a><a class="contact" href="mailto:rendekar.platform@gmail.com">Contact ↗</a></nav>
+  <div class="leak" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <header class="bar">
+    <a class="brand" href="#main" aria-label="Rendekar home">
+      <svg class="prism" viewBox="0 0 32 28" aria-hidden="true"><path d="M16 2 30 26H2Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M0 15h11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="m20 13 12-4M20.5 16 32 16M20 19l12 4" stroke="#3346f0" stroke-width="2.4" stroke-linecap="round"/></svg>
+      Rendekar
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#how">How it works</a>
+      <a href="#studio">Studio</a>
+      <a href="#batches">Batches</a>
+      <a href="#work">Work</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-dark btn-small" href="mailto:rendekar.platform@gmail.com?subject=Pilot%20request">Start a pilot</a>
   </header>
-  <main id="main" class="shell">
-    <section class="intro" aria-labelledby="intro-title">
-      <h1 id="intro-title">Video editing<br>and automation<span>.</span></h1>
-      <p>We edit talks and training archives into short lessons, and build tools for teams producing video at scale.</p>
-    </section>
-    <section id="work" aria-labelledby="case-title">
-      <div class="section-line"><span>Selected work</span><span>Educational video</span></div>
-      <div class="feature">
-        <div class="feature-copy">
-          <p class="label">FOSDEM 2024</p>
-          <h2 id="case-title">One talk. <br>Two lessons.</h2>
-          <p>We took a 24-minute talk on technical writing and cut two lessons from it. Each pairs Jack Baldry’s advice with an example a writer can try.</p>
-        </div>
-        <div class="screen">
-          <video aria-label="Review a documentation draft" controls playsinline preload="none" poster="media/Review-a-documentation-draft.webp" src="media/Review-a-documentation-draft.mp4"></video>
-          <div class="caption"><strong>Review a documentation draft</strong><span>01:15</span></div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <h1 id="hero-title"><span class="thin">Teach it once.</span> <span class="bold">Produce automatically.</span></h1>
+        <div class="hero-side">
+          <p>Edit one video the way you want it. Rendekar keeps those choices as your channel’s recipe and applies them to every new recording, in every format you publish in.</p>
+          <div class="actions">
+            <a class="btn btn-dark" href="mailto:rendekar.platform@gmail.com?subject=Sample%20recording%20for%20Rendekar">Send a sample recording</a>
+            <a class="btn btn-glass" href="#how">See how it works</a>
+          </div>
         </div>
       </div>
-      <details>
-        <summary><strong>Watch the second lesson</strong><span>Write a useful style rule · 01:03</span></summary>
-        <video aria-label="Write a useful style rule" controls playsinline preload="none" poster="media/Write-a-useful-style-rule.webp" src="media/Write-a-useful-style-rule.mp4"></video>
-      </details>
+
+      <div class="wrap">
+        <div class="stage" role="img" aria-label="One edited video on the left, styled the same way across many produced videos on the right">
+          <div class="taught">
+            <div class="taught-frame">
+              <img src="media/frames/wide-1.webp" alt="" width="640" height="360">
+              <span class="pin p1">Caption style</span>
+              <span class="pin p2">Opening title</span>
+              <span class="pin p3">Portrait layout</span>
+              <span class="pin p4">Brand and formats</span>
+            </div>
+            <p class="stage-label"><strong>You edit one</strong> in Studio</p>
+          </div>
+
+          <div class="beam" aria-hidden="true"><span></span></div>
+
+          <div class="produced">
+            <div class="wall" aria-hidden="true">
+              <div class="row">
+                <div class="track">
+                  <img class="t" src="media/frames/tall-2.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-3.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-4.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-5.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-1.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-2.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-3.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-4.webp" alt="" width="640" height="360">
+                  <img class="t" src="media/frames/tall-2.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-3.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-4.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-5.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-1.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-2.webp" alt="" width="640" height="360"><img class="t" src="media/frames/tall-3.webp" alt="" width="360" height="640"><img class="w" src="media/frames/wide-4.webp" alt="" width="640" height="360">
+                </div>
+              </div>
+            </div>
+            <p class="stage-label"><strong>Rendekar produces the rest</strong> the same way</p>
+          </div>
+        </div>
+        <p class="stage-note">Frames from our FOSDEM lesson series. The vertical versions are rearranged, not cropped.</p>
+      </div>
+    </section>
+
+    <section class="facts wrap" aria-label="At a glance">
+      <p><strong>10,000+</strong> videos published with this approach since 2013</p>
+      <p><strong>One edit</strong> sets the look for a whole series</p>
+      <p><strong>Every file</strong> checked against its source before delivery</p>
+    </section>
+
+    <section id="how" class="how wrap" aria-labelledby="how-title">
+      <header class="sec-head">
+        <h2 id="how-title"><span class="thin">The idea is simple.</span> Decide once, repeat forever.</h2>
+      </header>
+      <ol class="phases">
+        <li class="glass">
+          <span class="n">1</span>
+          <h3>Teach</h3>
+          <p>Open a recording in Studio. Fix captions, place them, set the opening title and the portrait layout. Approve the result.</p>
+          <div class="mini mini-edit" aria-hidden="true">
+            <div class="line"><b>00:04</b><span>Does each instruction match</span></div>
+            <div class="line on"><b>00:06</b><span>what the reader actually sees?</span></div>
+            <div class="line"><b>00:09</b><span>Check the screen, not the spec.</span></div>
+          </div>
+        </li>
+        <li class="glass">
+          <span class="n">2</span>
+          <h3>Save as your recipe</h3>
+          <p>The choices that should repeat become your channel’s recipe. It is versioned, so approved videos never change behind your back.</p>
+          <dl class="mini mini-recipe" aria-hidden="true">
+            <div><dt>Captions</dt><dd>Phrase groups, lower third</dd></div>
+            <div><dt>Opening title</dt><dd>First 3 seconds</dd></div>
+            <div><dt>Formats</dt><dd>16:9 and 9:16</dd></div>
+            <div><dt>Review</dt><dd>Required</dd></div>
+          </dl>
+        </li>
+        <li class="glass">
+          <span class="n">3</span>
+          <h3>Produce automatically</h3>
+          <p>Every new recording runs through the recipe. You get finished videos to review, not raw files to edit.</p>
+          <ul class="mini mini-queue" aria-hidden="true">
+            <li><span>lesson-07</span><em class="ok">Ready to review</em></li>
+            <li><span>lesson-08</span><em class="run">Captioning</em></li>
+            <li><span>lesson-09</span><em>Queued</em></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="studio" class="split wrap" aria-labelledby="studio-title">
+      <div class="split-copy">
+        <h2 id="studio-title"><span class="thin">Interactive</span> when you need it.</h2>
+        <p class="lead">Studio is where you shape the first video and fix the odd one out. Everything you do there is recorded against the exact source, so it can be repeated.</p>
+        <ul class="ticks">
+          <li>Captions timed to each word, corrected line by line</li>
+          <li>Drag captions to where they read best</li>
+          <li>Opening title and portrait layout per video</li>
+          <li>Switch between the source and the result</li>
+          <li>Approve one exact version, then render a verified file</li>
+        </ul>
+      </div>
+      <div class="studio glass" aria-hidden="true">
+        <div class="studio-top"><i></i><i></i><i></i><span>lesson-07</span><em>Saved</em></div>
+        <div class="studio-body">
+          <div class="studio-player">
+            <img src="media/frames/wide-2.webp" alt="" width="640" height="360">
+            <span class="cap">Give actions consistent names.</span>
+          </div>
+          <ul class="studio-cues">
+            <li><b>00:12</b>Give actions consistent names.</li>
+            <li class="on"><b>00:15</b>Readers can find a familiar step again.</li>
+            <li><b>00:19</b>Use the same verb every time.</li>
+            <li><b>00:23</b>Name the button, not the action.</li>
+          </ul>
+        </div>
+        <div class="studio-foot"><span class="chip">16:9</span><span class="chip on">9:16</span><span class="grow"></span><span class="btn btn-small btn-dark">Approve this version</span></div>
+      </div>
+    </section>
+
+    <section id="batches" class="split split-rev wrap" aria-labelledby="batch-title">
+      <div class="split-copy">
+        <h2 id="batch-title"><span class="thin">Automatic</span> when you don’t.</h2>
+        <p class="lead">Point Rendekar at a folder of recordings. Each one is prepared with your recipe and appears in your review inbox as soon as it is ready.</p>
+        <ul class="ticks">
+          <li>Your originals are read in place and never changed</li>
+          <li>Each recording is its own job: one failure never holds back the rest</li>
+          <li>Approve, ask for a change or set aside, per video</li>
+          <li>Nothing is published without your approval</li>
+        </ul>
+        <p class="status-note">Batch intake is rolling out with our first pilot customers.</p>
+      </div>
+      <div class="inbox glass-dark" aria-hidden="true">
+        <div class="inbox-head"><span>Review inbox</span><em>18 of 20 ready</em></div>
+        <ul>
+          <li><span class="thumb" style="background-image:url(media/frames/wide-3.webp)"></span><span class="name">coaching-ep12-clip-01</span><em class="ok">Ready</em></li>
+          <li><span class="thumb" style="background-image:url(media/frames/wide-4.webp)"></span><span class="name">coaching-ep12-clip-02</span><em class="ok">Approved</em></li>
+          <li><span class="thumb" style="background-image:url(media/frames/wide-5.webp)"></span><span class="name">coaching-ep12-clip-03</span><em class="run">Preparing</em></li>
+          <li><span class="thumb" style="background-image:url(media/frames/wide-1.webp)"></span><span class="name">coaching-ep12-clip-04</span><em class="warn">Needs a look</em></li>
+          <li><span class="thumb" style="background-image:url(media/frames/wide-2.webp)"></span><span class="name">coaching-ep12-clip-05</span><em class="ok">Ready</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="uses wrap" aria-labelledby="uses-title">
+      <h2 id="uses-title"><span class="thin">Made for formats</span> you publish every week.</h2>
+      <div class="uses-grid">
+        <article class="glass"><h3>Lesson series</h3><p>Long talks and classes cut into short lessons that look the same from episode one to fifty.</p></article>
+        <article class="glass"><h3>Talk shows and coaching</h3><p>Weekly episodes turned into captioned vertical clips with a title on the first frame.</p></article>
+        <article class="glass"><h3>Footage libraries</h3><p>Hours of raw footage logged once into a reviewed clip library you keep cutting from.</p></article>
+        <article class="glass"><h3>Data-driven explainers</h3><p>Rows of a spreadsheet turned into animated map and chart videos, one per row.</p></article>
+      </div>
+    </section>
+
+    <section id="reliability" class="rel" aria-labelledby="rel-title">
+      <div class="wrap rel-grid">
+        <h2 id="rel-title"><span class="thin">Repeatable</span> means reliable.</h2>
+        <ul>
+          <li><h3>Same recipe, same result</h3><p>Each video is produced from a frozen copy of your recipe, so a later change never alters work you already approved.</p></li>
+          <li><h3>Nothing goes out without you</h3><p>Rendering and publishing are separate steps. Finished videos wait for your approval.</p></li>
+          <li><h3>Every cut is traceable</h3><p>Each output records the source file and seconds it came from, and every file is checksum-verified.</p></li>
+          <li><h3>Interruptions don’t lose work</h3><p>Jobs run from a persistent queue. A stalled job is picked up again, and an old attempt can never overwrite a newer one.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="work wrap" aria-labelledby="work-title">
+      <h2 id="work-title"><span class="thin">Selected work.</span> One talk, two lessons.</h2>
+      <p class="lead">From a 24-minute FOSDEM 2024 talk on technical writing we cut two short lessons, each pairing Jack Baldry’s advice with a worked example.</p>
+      <div class="videos">
+        <figure>
+          <video controls playsinline preload="none" poster="media/Review-a-documentation-draft.webp" src="media/Review-a-documentation-draft.mp4" aria-label="Review a documentation draft"></video>
+          <figcaption><strong>Review a documentation draft</strong><span>1:15</span></figcaption>
+        </figure>
+        <figure>
+          <video controls playsinline preload="none" poster="media/Write-a-useful-style-rule.webp" src="media/Write-a-useful-style-rule.mp4" aria-label="Write a useful style rule"></video>
+          <figcaption><strong>Write a useful style rule</strong><span>1:03</span></figcaption>
+        </figure>
+      </div>
       <p class="credits">Adapted from Jack Baldry’s <a href="https://archive.fosdem.org/2024/schedule/track/tool-the-docs/">Style as code</a> at FOSDEM 2024 under <a href="https://creativecommons.org/licenses/by/2.0/be/">CC BY 2.0 BE</a>. Editing and worked examples by Rendekar.</p>
     </section>
-    <section id="studio" class="studio" aria-labelledby="studio-title">
-      <div><p class="label">Studio</p><h2 id="studio-title">Behind the work</h2></div>
-      <div><h3>10,000+ published videos</h3><p>Our original workflow produced more than 10,000 videos for Babatorik. From 2013 to 2015, we also developed editing templates for literary interviews, children’s stories and device reviews.</p></div>
-      <div><h3>The platform in development</h3><p>We’re building tools that let editors trace a cut back to its source and reuse an approved format across a series. AI can suggest a passage. The editor chooses the excerpt, checks its context and approves the cut.</p></div>
+
+    <section class="since wrap" aria-labelledby="since-title">
+      <h2 id="since-title"><span class="thin">Since</span> 2013.</h2>
+      <div>
+        <p>Rendekar began as the production system behind Babatorik, where it published more than 10,000 videos. Literary interviews, children’s stories and device reviews each had one template, reused across hundreds of episodes.</p>
+        <p>We are rebuilding it on modern infrastructure with the same idea at its core: teach the format once, then let every video follow it.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="faq wrap" aria-labelledby="faq-title">
+      <h2 id="faq-title"><span class="thin">Short</span> answers.</h2>
+      <div class="faq-list">
+        <details><summary>What works today?</summary><p>Studio editing and review, word-timed captions, opening titles, portrait layouts, approval of exact versions and verified rendering. Batch intake from a folder is rolling out with pilot customers. Direct posting to your social accounts is on the roadmap.</p></details>
+        <details><summary>What do I need to send?</summary><p>A few recordings, your logo and fonts if you have them, and an example of a video you like. We set up the recipe with you on the first one.</p></details>
+        <details><summary>Do I have to use Studio myself?</summary><p>No. We can run Studio for you as a service: you send recordings and review finished videos.</p></details>
+        <details><summary>Who owns the videos?</summary><p>Your footage and the finished videos stay yours. We only read your source files and never change them.</p></details>
+        <details><summary>How does pricing work?</summary><p>We start with a small paid pilot so you can judge the result. After that, pricing is per video or monthly, based on volume.</p></details>
+      </div>
     </section>
   </main>
-  <footer><div class="shell"><h2>Have footage in mind?</h2><a href="mailto:rendekar.platform@gmail.com">rendekar.platform@gmail.com ↗</a></div></footer>
+
+  <footer class="end">
+    <div class="wrap end-grid">
+      <h2><span class="thin">Teach us one video.</span> We’ll make the next ten.</h2>
+      <div>
+        <p>Start with a paid pilot: send one recording and get it back in every format you publish in.</p>
+        <a class="btn btn-dark" href="mailto:rendekar.platform@gmail.com?subject=Pilot%20request">rendekar.platform@gmail.com</a>
+      </div>
+    </div>
+    <p class="wrap fine">Inter typeface by Rasmus Andersson, SIL Open Font License.</p>
+  </footer>
 </body>
 </html>
